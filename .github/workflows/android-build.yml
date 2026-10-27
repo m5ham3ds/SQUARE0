@@ -41,13 +41,14 @@ jobs:
 
       - name: Install Android build components
         run: |
-          yes | sdkmanager --licenses
           sdkmanager --install \
             "platform-tools" \
-            "platforms;android-37" \
-            "build-tools;36.0.0" \
+            "platforms;android-37.0" \
+            "build-tools;37.0.0" \
             "ndk;28.2.13676358" \
             "cmake;3.22.1"
+          test -d "$ANDROID_HOME/platforms/android-37.0" || { echo "Android SDK Platform 37.0 was not installed"; exit 1; }
+          test -d "$ANDROID_HOME/build-tools/37.0.0" || { echo "Android Build Tools 37.0.0 were not installed"; exit 1; }
 
       - name: Set up Rust for Android
         uses: dtolnay/rust-toolchain@stable
@@ -72,3 +73,4 @@ jobs:
             app/build/outputs/apk/release/*.apk
           if-no-files-found: error
           retention-days: 14
+          
