@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    The app's text, in English.
+
+    English is the base rather than Italian even though Italian is what it was
+    written in: a locale nobody translated falls back to this file, and English
+    is the one a stranger is likeliest to read. The Italian originals live in
+    values-it.
+-->
+<resources>
+    <string name="app_name">Square</string>
+
+    <!-- Shared -->
+    <string name="back">Back</string>
+    <string name="close">Close</string>
+    <string name="skip">Skip</string>
+    <string name="next_step">Next</string>
+    <string name="copy">Copy</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="clear">Clear</string>
+    <string name="retry">Retry</string>
+    <string name="log_out">Log out</string>
+    <string name="refresh">Refresh</string>
+    <string name="more">More</string>
+    <string name="sort">Sort</string>
+    <string name="name">Name</string>
+    <string name="title">Title</string>
+    <string name="artist">Artist</string>
+    <string name="album">Album</string>
+    <string name="playlist">Playlist</string>
+    <string name="duration">Length</string>
+    <string name="tracks">Songs</string>
+    <string name="artists">Artists</string>
+    <string name="albums">Albums</string>
+    <string name="playlists">Playlists</string>
+    <string name="shuffle">Shuffle</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="repeat">Repeat</string>
+    <string name="reset">Reset</string>
+    <string name="off">Off</string>
+    <string name="queue">Queue</string>
+    <string name="lyrics">Lyrics</string>
+    <string name="watch_video">Watch the video</string>
+    <string name="effects">Effects</string>
+    <string name="cover">Cover</string>
+    <string name="devices">Devices</string>
+    <string name="settings">Settings</string>
+    <string name="home">Home</string>
+    <string name="library">Library</string>
+    <string name="search">Search</string>
+    <string name="now_playing">Now playing</string>
+    <string name="unofficial_client">Unofficial client for Premium accounts</string>
+    <string name="log_in_with_spotify">Log in with Spotify</string>
+    <string name="connect">Connect</string>
+    <string name="client_id">Client ID</string>
+
+    <!-- Home -->
+    <string name="good_morning">Good morning</string>
+    <string name="good_afternoon">Good afternoon</string>
+    <string name="good_evening">Good evening</string>
+    <string name="feed_all">Everything</string>
+    <string name="feed_for_you">For you</string>
+    <string name="feed_releases">New</string>
+    <string name="your_playlists">Your playlists</string>
+    <string name="listening_artists">Artists you listen to</string>
+    <string name="play_again">Play again</string>
+    <string name="on_repeat">On repeat lately</string>
+    <string name="jump_back_in">Pick up where you left off</string>
+    <string name="new_from_your_artists">New from your artists</string>
+    <string name="all_time_favourites">Your all-time favourites</string>
+    <string name="cannot_connect">Could not reach Spotify.</string>
+    <string name="rootlist_unavailable">playlists unavailable</string>
+
+    <!-- Library -->
+    <string name="recently_opened">Recently opened</string>
+    <string name="spotify_order">Spotify\'s order</string>
+    <string name="change_layout">Change layout</string>
+    <string name="playlist_count">%1$d playlists</string>
+
+    <!-- Playlist, album, artist -->
+    <string name="playlist_order">Playlist order</string>
+    <string name="recently_added">Recently added</string>
+    <string name="top_tracks">Top songs</string>
+    <string name="search_in_tracks">Search these songs</string>
+    <string name="no_tracks">No songs</string>
+    <string name="no_results_for">No results for “%1$s”</string>
+    <string name="more_tracks_coming">More songs on the way</string>
+    <string name="track_count_and_length"> · %1$d songs · %2$s</string>
+    <string name="hours_minutes">%1$dh %2$dmin</string>
+    <string name="minutes_only">%1$dmin</string>
+    <string name="artist_needs_app">Opening an artist needs your own Spotify application; set it up in Search.</string>
+
+    <!-- Track menu -->
+    <string name="add_to_queue">Add to queue</string>
+    <string name="add_to_playlist">Add to a playlist</string>
+    <string name="copy_link">Copy link</string>
+    <string name="remove_from_playlist">Remove from playlist</string>
+    <string name="queued">Queued</string>
+    <string name="added_to">Added to %1$s</string>
+    <string name="no_playlists_in_account">No playlists in your account</string>
+    <string name="track_cannot_be_added">This song cannot be added.</string>
+    <string name="connect_app_in_settings">Connect your application in settings.</string>
+    <string name="add_failed">%1$s could not be added to. If the playlist is not yours, you cannot change it.</string>
+
+    <!-- Player -->
+    <string name="play_on">Play on</string>
+    <string name="no_devices">No devices available</string>
+    <string name="queue_empty">The queue is empty</string>
+    <string name="no_lyrics">No lyrics for this song</string>
+    <string name="speed">Speed</string>
+    <string name="pitch">Pitch</string>
+    <string name="reverb">Reverb</string>
+    <string name="save_preset">Save preset</string>
+    <string name="delete_preset">Delete %1$s</string>
+    <string name="shuffle_play">Shuffle</string>
+    <string name="unnamed">Unnamed</string>
+    <string name="preset_original">Original</string>
+
+    <!-- Search -->
+    <string name="search_placeholder">Songs, artists, albums, playlists</string>
+    <string name="search_prompt">Search for something to listen to</string>
+
+    <!-- Settings -->
+    <string name="account">Account</string>
+    <string name="not_connected">Not connected</string>
+    <string name="log_in_to_resume">Log in to carry on</string>
+    <string name="connect_device">Connect device</string>
+    <string name="web_api">Web API</string>
+    <string name="application">Application</string>
+    <string name="connected">Connected</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="guide">Guide</string>
+    <string name="see_setup_again">Go through the setup again</string>
+    <string name="permissions_asked">Permissions asked for</string>
+    <string name="permissions_note">An application connected before an update has to be reconnected to grant the permissions added since: the sections that use them stay empty until you do.</string>
+    <string name="developed_by">Developed by</string>
+    <string name="about">About</string>
+    <string name="version">Version</string>
+    <string name="licences">Licences</string>
+    <string name="scope_top_artists">Artists you listen to</string>
+    <string name="scope_history">Account history</string>
+    <string name="scope_devices">Device list</string>
+    <string name="scope_transfer">Move playback</string>
+    <string name="scope_private_playlists">Add to private playlists</string>
+    <string name="scope_public_playlists">Add to public playlists</string>
+    <string name="enter_client_id">Enter the client ID.</string>
+    <string name="artist_playlists">Playlists with this artist</string>
+    <string name="singles_and_eps">Singles and EPs</string>
+    <string name="appears_on">Appears on</string>
+    <string name="followers_count">%1$s followers</string>
+    <string name="follow">Follow</string>
+    <string name="following">Following</string>
+    <string name="artists_you_follow">Artists you follow</string>
+    <string name="friends_listening">Friends</string>
+    <string name="friends_none">Nobody is listening right now, or nobody you follow shares what they play.</string>
+    <string name="just_now">Just now</string>
+    <string name="minutes_ago">%1$d min ago</string>
+    <string name="hours_ago">%1$d h ago</string>
+    <string name="days_ago">%1$d d ago</string>
+    <string name="shared_song">SHARED SONG</string>
+    <string name="spotify_links">Spotify links</string>
+    <string name="spotify_links_note">Links to tracks, albums, playlists and artists can open here. Android asks you to allow it once, on its own screen.</string>
+    <string name="open_by_default">Open by default</string>
+    <string name="web_api_expired_title">Session expired</string>
+    <string name="web_api_expired_body">Sign in to your Spotify application again to bring search and the home page back.</string>
+    <string name="web_api_expired_action">Sign in again</string>
+    <string name="later">Later</string>
+    <string name="needs_your_app">You need your own Spotify application: set it up in Search.</string>
+
+    <!-- Web API setup -->
+    <string name="turn_on_search">TURN ON SEARCH</string>
+    <string name="web_api_explainer">Search goes through Spotify\'s web API, which has a request limit per application. Register an app in the developer dashboard and paste its client ID here: then the limit is yours alone.</string>
+    <string name="redirect_uri_note">This exact Redirect URI has to be added to the app:</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_start">Start listening</string>
+    <string name="onboarding_welcome_1">Your Spotify music, with lyrics, canvas and audio effects.</string>
+    <string name="onboarding_welcome_2">A Spotify Premium account is required.</string>
+    <string name="onboarding_welcome_3">Two steps and you are ready. Five minutes, once.</string>
+    <string name="onboarding_login_title">1. Log in to Spotify</string>
+    <string name="onboarding_login_1">The browser opens on Spotify\'s page. You authorise, and it brings you back here.</string>
+    <string name="onboarding_login_2">You only ever type your password on Spotify\'s own page: Square never sees it.</string>
+    <string name="onboarding_login_done">Logged in</string>
+    <string name="onboarding_key_title">2. Create your key</string>
+    <string name="onboarding_key_intro">Search and recommendations go through Spotify\'s API, which has to be used with a personal key. It takes a minute, it is free, and no card is needed.</string>
+    <string name="onboarding_open_dashboard">Open the dashboard</string>
+    <string name="onboarding_step_login">Log in with the same Spotify account.</string>
+    <string name="onboarding_step_create">Top right, press «Create app».</string>
+    <string name="onboarding_step_names">App name and App description: anything you like, for instance Square. Website: leave it empty.</string>
+    <string name="onboarding_step_redirect">Redirect URI: paste the line below and press «Add». Check that it appears in the list under the field, or it is not saved.</string>
+    <string name="onboarding_step_api">Under «Which API/SDKs are you planning to use?» tick Web API.</string>
+    <string name="onboarding_step_terms">Accept the terms and press «Save».</string>
+    <string name="onboarding_step_client_id">On the app\'s page press «Settings»: the Client ID is under «Basic Information». Copy it.</string>
+    <string name="onboarding_step_secret">The Client secret is not needed: do not copy it and do not enter it anywhere.</string>
+    <string name="onboarding_paste_title">3. Paste the Client ID</string>
+    <string name="onboarding_paste_done">Done: search and recommendations are on.</string>
+    <string name="onboarding_key_linked">Key connected</string>
+    <string name="onboarding_paste_hint">Paste the Client ID here and press Connect. The browser opens one last time to confirm.</string>
+    <string name="onboarding_paste_error">If the browser shows an error, go back one step: nearly always the Redirect URI was not added to the list.</string>
+    <string name="onboarding_done_title">All set</string>
+    <string name="onboarding_done_1">Home has your playlists, and the lens searches the whole catalogue.</string>
+    <string name="onboarding_done_2">In the player, swipe to change song and open lyrics, queue and effects from the bar under the cover.</string>
+    <string name="onboarding_done_3">You can see this guide again from Settings, by tapping your picture on the home page.</string>
+
+    <!-- Auth -->
+    <string name="browser_return">You can go back to the app.</string>
+    <string name="language">Language</string>
+    <string name="system_language">Phone language</string>
+    <string name="presets">PRESETS</string>
+    <string name="check_for_updates">Check for updates</string>
+    <string name="update_checking">Checking…</string>
+    <string name="update_none">Up to date</string>
+    <string name="update_available">%1$s available</string>
+    <string name="update_downloading">Downloading…</string>
+    <string name="update_installing">Waiting for you to confirm</string>
+    <string name="update_needs_permission">Allow installing — tap</string>
+    <string name="update_failed">Not now — tap to retry</string>
+    <string name="quality">Audio quality</string>
+    <string name="backend">Source</string>
+    <string name="backend_spotify">Spotify</string>
+    <string name="backend_youtube">YouTube Music</string>
+    <string name="backend_local_music">Music on this device</string>
+    <string name="local_music_title">Your music</string>
+    <string name="local_music_description">Songs saved on this phone</string>
+    <string name="backend_choice_local_note">Scan the audio files already on your phone and play them without an internet connection.</string>
+    <string name="local_music_scan">Scan phone</string>
+    <string name="local_music_rescan">Rescan</string>
+    <string name="local_music_scanning">Scanning audio files…</string>
+    <string name="local_music_permission_title">Allow access to audio</string>
+    <string name="local_music_permission_body">Square needs audio permission to find songs stored on this phone. It only requests access to audio files.</string>
+    <string name="local_music_open_settings">Open app settings</string>
+    <string name="local_music_no_tracks">No local music found yet. Add audio files to your phone, then scan again.</string>
+    <string name="local_music_scan_failed">The phone’s audio library could not be read. Check permission and try again.</string>
+    <string name="local_music_track_count">%1$d tracks found</string>
+    <string name="local_music_unknown_artist">Unknown artist</string>
+    <string name="local_music_unknown_track">Untitled track</string>
+    <string name="backend_note">Spotify plays your account and playlists. YouTube Music provides online search and playback. Music on this device scans local audio files and works offline. Changing the source restarts playback.</string>
+    <string name="backend_choice_title">Where do you want to listen from?</string>
+    <string name="backend_choice_subtitle">You can change the source later in Settings.</string>
+    <string name="backend_choice_spotify_note">Your own account: your library, your playlists, your Connect devices. Needs a login and a bit of setup.</string>
+    <string name="backend_choice_youtube_note">The whole catalogue, searchable and playable straight away. No account, so there is no library of your own to read.</string>
+    <string name="backend_choice_changeable">This can be changed at any time in the settings.</string>
+    <string name="youtube_home_empty">Search for something to start listening. What you play shows up here.</string>
+    <string name="trending_now">Trending now</string>
+    <string name="popular_playlists">Popular playlists</string>
+    <string name="youtube_account">YouTube account</string>
+    <string name="youtube_sign_in">Sign in with Google</string>
+    <string name="youtube_sign_in_note">Optional. Search and playback work without it; signing in adds your own playlists.</string>
+    <string name="youtube_sign_out">Sign out</string>
+    <string name="quality_auto">Automatic</string>
+    <string name="quality_high">High</string>
+    <string name="quality_medium">Medium</string>
+    <string name="quality_low">Low</string>
+    <string name="quality_auto_note">Full quality on wi-fi, one step down on a metered connection.</string>
+    <string name="quality_restarts">Changing this reloads what is playing.</string>
+    <string name="premium_required">Square needs Spotify Premium. A free account can sign in, but Spotify does not stream to a client like this one.</string>
+    <string name="new_playlist">New playlist</string>
+    <string name="rename">Rename</string>
+    <string name="delete">Delete</string>
+    <string name="playlist_name">Playlist name</string>
+    <string name="create">Create</string>
+    <string name="update_prompt">Download and install it now?</string>
+    <string name="update_prompt_size">Download and install it now? %1$s.</string>
+    <string name="update_later">Later</string>
+    <string name="update_install">Install</string>
+    <string name="download_get_app">Get YTDLnis</string>
+    <string name="download_with">Download with YTDLnis</string>
+    <string name="crossfade">Crossfade</string>
+    <string name="crossfade_off">Off</string>
+    <string name="crossfade_seconds">%1$d seconds</string>
+    <string name="crossfade_note">One track dissolves into the next. Only where a track ends on its own, not when you skip.</string>
+    <string name="page_playback">Playback</string>
+    <string name="page_app">App</string>
+    <string name="page_account_summary">Your account, the Web API application and signing out</string>
+    <string name="page_playback_summary">Where music comes from, quality and crossfade</string>
+    <string name="page_app_summary">Language</string>
+    <string name="page_about_summary">Version, permissions, licences and the developer</string>
+    <string name="playing_on">Playing on %1$s</string>
+    <string name="switching">Switching…</string>
+    <string name="in_a_playlist">Already in a playlist</string>
+    <string name="effect_quality">Effect quality</string>
+    <string name="effect_quality_high">Faithful</string>
+    <string name="effect_quality_high_note">Best on music, and the heaviest on the battery.</string>
+    <string name="effect_quality_light">Light</string>
+    <string name="effect_quality_light_note">The phone does the work. Kinder to older devices, rougher on attacks.</string>
+    <string name="liked_songs">Liked Songs</string>
+    <string name="pinned">Pinned</string>
+    <string name="pin">Pin to the top</string>
+    <string name="unpin">Unpin</string>
+    <string name="radio">Radio</string>
+</resources>
