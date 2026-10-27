@@ -49,6 +49,7 @@ import androidx.lifecycle.LifecycleEventObserver
 import androidx.lifecycle.compose.LocalLifecycleOwner
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.adamglin.PhosphorIcons
+import com.adamglin.phosphoricons.Regular
 import com.adamglin.phosphoricons.regular.Queue
 import com.kyant.backdrop.Backdrop
 import dev.lelonio.square.R
